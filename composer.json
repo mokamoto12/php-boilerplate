@@ -1,0 +1,34 @@
+{
+    "name": "mokamoto12/vanilla",
+    "type": "project",
+    "description": "Vanilla PHP.",
+    "keywords": ["project", "template", "vanilla"],
+    "homepage": "https://github.com/mokamoto12/vanilla-php",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "mokamoto12",
+        "email": "mokamoto1208@gmail.com",
+        "homepage": "http://mokamoto12.com"
+      }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mokamoto12\\Vanilla\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mokamoto12\\Vanilla\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
